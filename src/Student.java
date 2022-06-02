@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Student {
 
-	// Here we create variables with PRIVATE access modifiers
+// Here we create variables with PRIVATE access modifiers
 
 	private String firstName;
 	private String lastName;
@@ -13,7 +13,7 @@ public class Student {
 	private static int costOfCourse = 600;
 	private static int id = 1000;
 
-	// This constructor will prompt user to enter student's name and year
+// This constructor will prompt user to enter student's name and year
 
 	public Student() {
 
@@ -31,9 +31,7 @@ public class Student {
 
 		setStudentID();
 
-		// Here we call our enroll method to prompt selection of courses:
-
-		//enroll();
+// Here we call our enroll method to prompt selection of courses:
 
 	}
 
@@ -105,11 +103,3 @@ public class Student {
 		
 		
 	}
-	
-	
-
-	
-
-
-
-
